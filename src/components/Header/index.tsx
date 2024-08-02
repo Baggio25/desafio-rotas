@@ -11,12 +11,12 @@ export default function Header() {
       <nav className="container">
         <div className="header-menu">
           <div className="header-menu-items">
-            <NavLink to="/" className={({ isActive }) => isActive ? "header-active" : ""}>Início</NavLink>
-            <NavLink to="/products" className={({ isActive }) => isActive ? "header-active" : ""}>Produtos</NavLink>
+            <NavLink to="/home" className={({ isActive }) => isActive ? "header-active" : ""}>Início</NavLink>
+            <NavLink to="/products/computers" className={({ isActive }) => isActive ? "header-active" : ""}>Produtos</NavLink>
             <NavLink to="/about" className={({ isActive }) => isActive ? "header-active" : ""}>Sobre Nós</NavLink>
           </div>
           <div className="header-menu-right">
-            <Link to="/">
+            <Link to="/home">
               <img src={homeImg} alt="home" />
             </Link>
           </div>
