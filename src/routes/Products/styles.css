@@ -1,0 +1,19 @@
+.header-container-products {
+  display: flex;
+  padding: 20px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: var(--black);
+  background-color: var(--gray-600);
+}
+
+
+.header-menu-products-items a {
+  margin-right: 20px;
+}
+
+.header-products-active {
+  font-weight: 700;
+}

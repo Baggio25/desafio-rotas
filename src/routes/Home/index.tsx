@@ -1,8 +1,14 @@
 
+
+
 export default function Home() {
   return (
-    <>
-      <h2>Bem-vindos !</h2>
-    </>
-  )
+    <main>
+      <section>
+        <div className="container">
+          <h2>Bem-vindos !</h2>
+        </div>
+      </section>
+    </main>
+  );
 }

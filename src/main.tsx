@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="products" element={<Products />}>
             <Route index element={<Computers />} />
             <Route path="computers" element={<Computers />} />
-            <Route path="eletronics" element={<Electronics />} />
+            <Route path="electronics" element={<Electronics />} />
             <Route path="books" element={<Books />} />
           </Route>
           

@@ -6,25 +6,17 @@
   --white: #ffffff;
   --black: #000000;
   --gray-600: #C7C7C7;
-
-
-
 }
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 
-html,
 body {
   background-color: var(--white);
-}
-
-main {
-  padding: 0 20px;
 }
 
 a,
@@ -32,3 +24,16 @@ a:hover {
   text-decoration: none;
   color: unset;
 }
+
+.dflex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+

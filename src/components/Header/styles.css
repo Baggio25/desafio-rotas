@@ -1,0 +1,27 @@
+.header-container {
+  display: flex;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu-items a {
+  margin-right: 20px;
+}
+
+.header-menu-right img {
+  width: 30px;
+  height: 30px;
+}
+
+.header-active {
+  font-weight: 700;
+}
